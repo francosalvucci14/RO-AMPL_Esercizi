@@ -1,0 +1,13 @@
+model ProblemaTrasporti/tras.mod;
+data ProblemaTrasporti/tras.dat;
+option solver cplex;
+solve;
+display costi_trasp;
+display Trasporti['Pom','Ro'];
+display Trasporti['Pom','Nap'];
+display Trasporti['Cas','Nap'];
+display Trasporti['Cas','Ro'];
+display Qta;
+
+expand > ProblemaTrasporti/tras.lp;
+quit;

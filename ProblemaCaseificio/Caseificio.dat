@@ -1,0 +1,9 @@
+#Caseificio.dat - File del dati - Caseificio
+set PROD:= Burro, Ricotta, Mozzarella;
+param:     d l v q :=
+Burro      9 20 2.5 2
+Ricotta    23 2 1.1 7
+Mozzarella 18 5 2 3;
+  
+param N:=7;
+param L:=120;

@@ -1,0 +1,7 @@
+model ProblemaColazione/colazione.mod;
+data ProblemaColazione/colazione.dat;
+option solver cplex;
+solve;
+display z;
+display x;
+quit;

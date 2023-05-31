@@ -1,0 +1,6 @@
+model ProblemaMiscelaOli/miscela.mod;
+data ProblemaMiscelaOli/miscela.dat;
+option solver cplex;
+solve;
+display obj;
+quit;

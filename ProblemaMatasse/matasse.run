@@ -1,0 +1,7 @@
+model ProblemaMatasse/matasse.mod;
+data ProblemaMatasse/matasse.dat;
+option solver cplex;
+solve;
+display produzione;
+display x;
+quit;

@@ -1,0 +1,6 @@
+model ProblemaElettrodomestici/elettrodom.mod;
+data ProblemaElettrodomestici/elettrodom.dat; 
+option solver cplex;
+solve; 
+display profitto; 
+quit;

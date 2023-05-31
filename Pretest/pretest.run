@@ -1,0 +1,13 @@
+
+option solver cplex;
+model Pretest/pretest.mod;
+data Pretest/pretest.dat;
+
+for{i in 1..10}{
+   solve;
+   let a['r2','x2'] := i;
+   display a['r2','x2'];
+   display z;
+   display x;
+};
+expand > Pretest/pretest.lp;

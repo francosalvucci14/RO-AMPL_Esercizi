@@ -1,0 +1,7 @@
+model ProblemaProductMix/mix.mod;
+data ProblemaProductMix/mix.dat;
+option solver cplex;
+solve;
+display profitto_tot;
+display x;
+quit;

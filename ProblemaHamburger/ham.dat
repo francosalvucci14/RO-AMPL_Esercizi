@@ -1,0 +1,14 @@
+set TIPI:= Manzo,Maiale;
+
+param: GrassoPerTipo:=
+Manzo  0.2
+Maiale 0.32;
+
+param: PolpaPerTipo:=
+Manzo  0.8
+Maiale 0.68;
+
+param: CostoTipo:=
+Manzo  6
+Maiale 3.5;
+

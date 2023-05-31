@@ -1,0 +1,20 @@
+set IMP := I1 I2;
+set MAG := M1 M2;
+set DIS := D1 D2 D3 D4;
+param: Offerta :=
+I1 3000
+I2 2000;
+param Costo_trasp1: M1 M2 :=
+I1 21 25
+I2 27 22;
+param: Domanda_mag Prezzo_mag :=
+M1 500 150
+M2 500 170;
+param Costo_trasp2: D1 D2 D3 D4 :=
+M1 33 31 36 30
+M2 27 30 28 31;
+param: Domanda_dis Prezzo_dis :=
+D1 150 350
+D2 190 280
+D3 220 200
+D4 170 270;

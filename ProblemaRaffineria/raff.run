@@ -1,0 +1,6 @@
+model ProblemaRaffineria/raff.mod;
+data ProblemaRaffineria/raff.dat; 
+option solver cplex;
+solve; 
+display ricavo; 
+quit;

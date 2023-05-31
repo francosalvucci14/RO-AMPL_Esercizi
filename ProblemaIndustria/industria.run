@@ -1,0 +1,7 @@
+model ProblemaIndustria/industria.mod;
+data ProblemaIndustria/industria.dat;
+option solver cplex;
+solve;
+display profitto_tot;
+display Quantita;
+quit;

@@ -1,0 +1,7 @@
+model ProblemaBeniDiConsumi/beni.mod;
+data ProblemaBeniDiConsumi/beni.dat;
+option solver cplex;
+solve;
+display profitto;
+display Qta;
+quit;

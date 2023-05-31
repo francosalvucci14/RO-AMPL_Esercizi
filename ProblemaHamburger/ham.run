@@ -1,0 +1,7 @@
+model ProblemaHamburger/ham.mod;
+data ProblemaHamburger/ham.dat;
+option solver cplex;
+solve;
+display costo;
+display Qta;
+quit;

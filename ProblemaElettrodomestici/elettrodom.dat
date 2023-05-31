@@ -1,0 +1,22 @@
+set ELETTRO:= E1,E2,E3,E4;
+set REP:= R1,R2,R3;
+
+param: NumOper:=
+R1     40
+R2     35
+R3     25;
+
+param OreOper:=40;
+
+param OreProd: R1   R2  R3:=
+E1             1    1.8 0.8
+E2             1.5  1.3 1.7
+E3             0.5  0.6 0.7
+E4             1.6  1   1.3;
+
+param: Prezzo   Domanda:=
+E1     800      1000       
+E2     1200     600        
+E3     950      300        
+E4     1100     200;
+

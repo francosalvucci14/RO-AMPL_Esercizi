@@ -1,0 +1,16 @@
+set LAV:= STD,HIQ;
+set MACC:= ASM,TST,MAT;
+
+param profitto_Lav:=
+STD   12
+HIQ   16;
+
+param Max_Res:=
+ASM   80
+TST   60
+MAT   70;
+
+param vincoli_tec: ASM TST MAT:=
+STD                3   2   4
+HIQ                2   4   4;
+

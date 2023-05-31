@@ -1,0 +1,19 @@
+set MACC := A,B,C;
+
+param NumeroProdottiST:=
+A     3 
+B     2 
+C     2;
+
+param NumeroProdottiSP:=
+A     1 
+B     2 
+C     1;
+
+param Domanda_St := 60;
+param Domanda_Sp := 40;
+
+param: Costi:=
+A      90
+B      80
+C      60;

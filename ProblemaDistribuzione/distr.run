@@ -1,0 +1,6 @@
+model ProblemaDistribuzione/distr.mod;
+data ProblemaDistribuzione/distr.dat;
+option solver cplex;
+solve;
+display profitto;
+quit;

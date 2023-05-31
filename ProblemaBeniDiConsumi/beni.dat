@@ -1,0 +1,16 @@
+set BENI:= Norm,Super;
+set MACC:=A,B,C;
+
+param: OreSett:=
+A      1500
+B      2000
+C      1800;
+
+param TempoLavorazione: A   B   C:=
+Norm                    1.5 0.8 1
+Super                   1.5 1   2;
+
+param: Profitto:=
+Norm   1200
+Super  1500;
+

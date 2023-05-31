@@ -1,0 +1,27 @@
+set ALIM:= Bis,Lat,Cer;
+
+param: c:=
+Bis    0.5
+Lat    0.4
+Cer    0.7;
+
+param: kc:=
+Bis    452
+Lat    64
+Cer    365;
+
+param: fib:=
+Bis    8
+Lat    0
+Cer    2.3;
+
+param: vit:=
+Bis    0
+Lat    47
+Cer    1.8;
+
+
+param Min_fib:=10;
+param Min_vit:=10;
+param Min_kc:=400;
+param Max_kc:=600;

@@ -1,0 +1,7 @@
+model ProblemaFertilizzante/fert.mod;
+data ProblemaFertilizzante/fert.dat;
+option solver cplex;
+solve;
+display profitto;
+display Quantità;
+quit;

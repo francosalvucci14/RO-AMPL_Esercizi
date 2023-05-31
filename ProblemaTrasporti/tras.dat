@@ -1,0 +1,7 @@
+set PROD:=Pom,Cas;
+set DEP:=Ro,Nap;
+
+param Trasporti: Ro   Nap:=
+Pom              1000 3000
+Cas              3500 500;
+

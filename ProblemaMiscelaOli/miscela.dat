@@ -1,0 +1,22 @@
+set OLII:= VEG1 VEG2 OIL1 OIL2 OIL3;
+set RISORSE:= Raff1 Raff2;
+set DOMANDA:= D1 D2;
+param profitto:= 150;
+param costo:=
+VEG1 110
+VEG2 120
+OIL1 130
+OIL2 110
+OIL3 115;
+param b:=
+Raff1 200
+Raff2 250;
+param b2:=
+D1 6
+D2 -3;
+param a: VEG1 VEG2 OIL1 OIL2 OIL3:=
+Raff1 1 1 0 0 0
+Raff2 0 0 1 1 1;
+param a2: VEG1 VEG2 OIL1 OIL2 OIL3:=
+D1 8.8 6.1 2.0 4.2 5.0
+D2 -8.8 -6.1 -2.0 -4.2 -5.0

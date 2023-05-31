@@ -1,0 +1,13 @@
+set BENZ:= B1,B2,B3,B4;
+set CARB:= C1,C2;
+
+param: Ottani   Ettolitri   Costo   Prezzo:=
+B1     90       3500        260     280
+B2     73       6000        210     250
+B3     79       4500        190     250
+B4     86       5200        220     280;
+
+param: MinOttani    PrezzoCarb  DomMin  DomMax:=
+C1     80           350         0       25000
+C2     85           520         10000   Infinity;
+

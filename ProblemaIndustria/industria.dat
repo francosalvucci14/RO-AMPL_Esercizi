@@ -1,0 +1,25 @@
+set PROD:= P1, P2, P3, P4, P5;
+set MACCH:= M1, M2;
+
+param:  Profitto:=
+P1      250
+P2      300
+P3      500
+P4      450
+P5      180;
+
+param Tempo_macch: M1 M2:=
+P1                 10 9
+P2                 15 13
+P3                 7  0
+P4                 18 0
+P5                 0  20;
+
+param Tempo_oper := 18;
+param: Numero_macch :=
+M1 4
+M2 3;
+
+param Numero_oper := 10;
+param Ore_max_macch := 80; # giorni*turni*ore
+param Ore_max_oper := 40; # giorni*turni*ore

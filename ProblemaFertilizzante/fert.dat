@@ -1,0 +1,17 @@
+set FERT:= T1,T2,T3,T4;
+set REP:=R1,R2;
+
+param TempiProd: T1  T2   T3   T4:=
+R1               2   1.5  0.5  2.5
+R2               0.5 0.25 0.25 1;
+
+param Profitti:=
+T1    250
+T2    230
+T3    110
+T4    350;
+
+param OreLav:=
+R1    100
+R2    50;
+

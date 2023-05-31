@@ -1,0 +1,7 @@
+model ProblemaCaseificio/Caseificio.mod;
+data ProblemaCaseificio/Caseificio.dat; 
+option solver cplex;
+solve; 
+display guadagno_totale; 
+display x; 
+quit;
